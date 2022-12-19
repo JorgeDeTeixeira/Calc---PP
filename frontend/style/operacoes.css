@@ -1,0 +1,107 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  background: #abece4;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.btn {
+  text-decoration: none;
+  border-radius: 3px;
+  border: 1px solid #000;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  background-color: #fb7991;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.zoom-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+.zoom-shadow:hover,
+.zoom-shadow:focus,
+.zoom-shadow:active {
+  box-shadow: 0 13px 8px -8px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+}
+
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -150px;
+  width: 300px;
+  height: 300px;
+}
+
+.login h1 {
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 10px;
+  background: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  color: #213b65;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+input:focus {
+  background-color: #f0f0f0;
+}
+
+#resul {
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 3px;
+  border: 1px solid #000;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  background-color: #148cee;
+  color: #fff;
+  transition: 0.2s;
+}

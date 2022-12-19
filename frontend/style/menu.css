@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #abece4;
+}
+
+.jogo-link {
+  text-decoration: none;
+  border-radius: 3px;
+  border: 1px solid #000;
+  width: 140px;
+  text-align: center;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  background-color: #fb7991;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.jogo-link:hover {
+  box-shadow: 2px 2px 2px #000;
+}
