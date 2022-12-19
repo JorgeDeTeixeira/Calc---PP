@@ -105,3 +105,18 @@ input:focus {
   color: #fff;
   transition: 0.2s;
 }
+
+.home {
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 3px;
+  border: 1px solid #000;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  background-color: #148cee;
+  color: #fff;
+  transition: 0.2s;
+}
